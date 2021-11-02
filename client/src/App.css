@@ -1,0 +1,746 @@
+@import '~antd/dist/antd.css';
+
+.App {
+  text-align: center;
+  
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+header {
+  font-size: 70px;
+  font-weight: 600;
+
+}
+
+.ant-layout {
+  background-color: rgb(220, 224, 245);
+}
+
+.header-title{
+  color: #b9227f;
+}
+.header-title:hover {
+  color: #e658af;;
+}
+
+.forked-up{
+  width: 65%;
+}
+
+.intro{
+  font-size: 35px;
+  font-weight: 600;
+   padding-right: 200px;
+    padding-left: 200px;
+}
+
+
+.ant-carousel {
+  margin-bottom: 60px;
+}
+
+
+
+.LandingButton{
+  margin-top: 20px ;
+  margin-bottom: 20px ;
+  border: 1px solid #80004f;
+  border-radius: 6px;
+  padding: 10px 20px;
+  font-weight: 600;
+  font-size: 30px;
+  background-color: #b9227f;
+  color: aliceblue;
+}
+
+.second-button{
+  margin-top: 50px;
+}
+
+.LandingButton:hover{
+    background-color: #e658af;
+    color: rgb(245, 245, 245);
+    border: 1px solid #002364;
+}
+
+ .LogoutButton {
+  margin-left: 20px;
+  border: 1px solid #9c0361;
+  border-radius: 6px;
+  padding: 10px 20px;
+  font-weight: 600;
+  font-size: 30px;
+  background-color: #b9227f;
+  color: aliceblue;
+
+  }
+
+  .LogoutButton:hover {
+    background-color: #e73da6;
+      color: aliceblue;
+  }
+
+  .LogoutButton:active {
+    background-color: #c72a8b;
+  }
+  .logout-div {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
+.carousel {
+  width: 90%;
+  border: solid 6px #b9227f;
+  margin-left: auto;
+  margin-right: auto;
+  background-image: url("../src/assets/CarouselMediaDesktop.png");
+  height: 627px; 
+  background-position: center;
+ 
+}
+
+.carousel2{
+  width: 90%;
+  border: solid 6px #b9227f;
+  margin-left: auto;
+  margin-right: auto;
+  background-image: url("../src/assets/Carousel2Media800.png");
+  height: 627px; 
+  background-position: center;
+ 
+}
+
+
+.spotify {
+  width: 700px;
+  margin-bottom: 25px;
+  border: 4px solid #8980F5;;
+  border-radius: 5px;
+}
+
+
+.recipe{
+width: 700px;  
+border: 3px solid #b9227f;;
+border-radius: 5px;
+margin-left: auto;
+margin-right: auto;
+}
+
+.pre-recipe {
+  width: 100%;
+  margin-top: 50px;
+}
+
+.card-container {
+  display: flex;
+  justify-content: center;
+}
+
+
+.returned-recipe{
+  width: 700px;
+  padding: 10px 20px;
+  margin-top: 50px;
+  border: 3px solid #b9227f;;
+  border-radius: 5px;
+}
+
+
+
+.returned-recipe h3{
+  font-size: 30px;
+  font-weight: 650;
+}
+
+
+.french-food {
+border-radius: 5px;
+ border: 5px solid #844E06;
+}
+
+.italian-food {
+border-radius: 5px;
+ border: 5px solid #801414;
+}
+
+.american-food {
+border-radius: 5px;
+ border: 5px solid #2B3D5C;
+}
+
+.caribbean-food {
+border-radius: 5px;
+ border: 5px solid #7F5205;
+}
+
+.greek-food {
+border-radius: 5px;
+ border: 5px solid #0C305B;
+}
+
+.chinese-food {
+border-radius: 5px;
+ border: 5px solid #9C130C;
+}
+
+.indian-food {
+border-radius: 5px;
+ border: 5px solid #751F00;
+}
+
+.mediterranean-food {
+border-radius: 5px;
+ border: 5px solid #155E7D;
+}
+
+.european-food {
+border-radius: 5px;
+ border: 5px solid #361212;
+}
+
+.japanese-food {
+border-radius: 5px;
+ border: 5px solid #5E5E53;
+}
+
+.mexican-food {
+border-radius: 5px;
+ border: 5px solid #934927;
+}
+
+.german-food {
+border-radius: 5px;
+ border: 5px solid #486177;
+}
+
+.southern-food {
+border-radius: 5px;
+ border: 5px solid #5F2C26;
+}
+
+.middle-eastern-food {
+border-radius: 5px;
+ border: 5px solid #414141;
+}
+
+.random-food {
+border-radius: 5px;
+ border: 5px solid #3C6464;
+}
+
+.single-food {
+  border: 5px solid #322C32;
+  border-radius: 5px;
+}
+
+.no-food {
+  border: none;
+}
+
+
+
+.french{
+  background-color: #844E06;
+  margin-top: 10px;
+  font-weight: 600;
+  font-size: 20px ;
+  margin-left: 200px;
+  margin-right: 200px;
+  color: #f3f3f3;
+  border-radius: 5px;
+}
+
+.italian{
+  background-color: #801414;
+  margin-top: 10px;
+  font-weight: 600;
+  font-size: 20px ;
+  margin-left: 200px;
+  margin-right: 200px;
+  color: #f3f3f3;
+  border-radius: 5px;
+}
+
+.american{
+  background-color: #2B3D5C;
+  margin-top: 10px;
+  font-weight: 600;
+  font-size: 20px ;
+  margin-left: 200px;
+  margin-right: 200px;
+  color: #f3f3f3;
+  border-radius: 5px;
+}
+
+.caribbean{
+  background-color: #7F5205;
+  margin-top: 10px;
+  font-weight: 600;
+  font-size: 20px ;
+  margin-left: 200px;
+  margin-right: 200px;
+  color: #f3f3f3;
+  border-radius: 5px;
+}
+
+.greek{
+  background-color: #0C305B;
+  margin-top: 10px;
+  font-weight: 600;
+  font-size: 20px ;
+  margin-left: 200px;
+  margin-right: 200px;
+  color: #f3f3f3;
+  border-radius: 5px;
+}
+
+.chinese{
+  background-color: #9C130C;
+  margin-top: 10px;
+  font-weight: 600;
+  font-size: 20px ;
+  margin-left: 200px;
+  margin-right: 200px;
+  color: #f3f3f3;
+  border-radius: 5px;
+}
+
+.indian{
+  background-color: #751F00;
+  margin-top: 10px;
+  font-weight: 600;
+  font-size: 20px ;
+  margin-left: 200px;
+  margin-right: 200px;
+  color: #f3f3f3;
+  border-radius: 5px;
+}
+
+.mediterranean{
+  background-color: #155E7D;
+  margin-top: 10px;
+  font-weight: 600;
+  font-size: 20px ;
+  margin-left: 200px;
+  margin-right: 200px;
+  color: #f3f3f3;
+  border-radius: 5px;
+}
+
+
+.european{
+  background-color: #361212;
+  margin-top: 10px;
+  font-weight: 600;
+  font-size: 20px ;
+  margin-left: 200px;
+  margin-right: 200px;
+  color: #f3f3f3;
+  border-radius: 5px;
+}
+
+.japanese{
+  background-color: #5E5E53;
+  margin-top: 10px;
+  font-weight: 600;
+  font-size: 20px ;
+  margin-left: 200px;
+  margin-right: 200px;
+  color: #f3f3f3;
+  border-radius: 5px;
+}
+
+
+.mexican{
+  background-color: #934927;
+  margin-top: 10px;
+  font-weight: 600;
+  font-size: 20px ;
+  margin-left: 200px;
+  margin-right: 200px;
+  color: #f3f3f3;
+  border-radius: 5px;
+}
+
+.thai{
+  background-color: #0A6397;
+  margin-top: 10px;
+  font-weight: 600;
+  font-size: 20px ;
+  margin-left: 200px;
+  margin-right: 200px;
+  color: #f3f3f3;
+  border-radius: 5px;
+}
+
+.german{
+  background-color: #486177;
+  margin-top: 10px;
+  font-weight: 600;
+  font-size: 20px ;
+  margin-left: 200px;
+  margin-right: 200px;
+  color: #f3f3f3;
+  border-radius: 5px;
+}
+
+.southern{
+  background-color: #5F2C26;
+  margin-top: 10px;
+  font-weight: 600;
+  font-size: 20px ;
+  margin-left: 200px;
+  margin-right: 200px;
+  color: #f3f3f3;
+  border-radius: 5px;
+}
+
+.middle-eastern{
+  background-color: #414141;
+  margin-top: 10px;
+  font-weight: 600;
+  font-size: 20px ;
+  margin-left: 200px;
+  margin-right: 200px;
+  color: #f3f3f3;
+  border-radius: 5px;
+}
+
+.random {
+   background-color: #3C6464;
+  margin-top: 10px;
+  font-weight: 600;
+  font-size: 20px ;
+  margin-left: 200px;
+  margin-right: 200px;
+  color: #f3f3f3;
+  border-radius: 5px;
+}
+
+.single {
+   background-color: #322C32;
+  margin-top: 10px;
+  font-weight: 600;
+  font-size: 20px ;
+  margin-left: 200px;
+  margin-right: 200px;
+  color: #f3f3f3;
+  border-radius: 5px;
+}
+
+.none {
+  background-color: #ffffff;
+  margin-top: 10px;
+  font-weight: 600;
+  font-size: 0px ;
+  margin-left: 200px;
+  margin-right: 200px;
+  color: #ffffff;
+  border-radius: 5px;
+}
+
+.card-container{
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin: 30px 0;
+  display: flex;
+}
+
+.ready-time {
+  margin-top: 10px;
+  font-weight: 600;
+  font-size: 20px ;
+  margin-left: 200px;
+  margin-right: 200px;
+  color: #f3f3f3;
+  background-color: #8980F5;
+  border-radius: 5px;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Lora&family=Noto+Sans&display=swap');
+.instructions{
+  margin-top: 20px;
+  font-size: 18px;
+  font-weight: 600;
+  font-family: 'Lora', serif;
+  font-family: 'Noto Sans', sans-serif;
+  border-bottom: 2px solid #282c34;
+  padding-bottom: 20px ;
+}
+
+.help-me{
+  margin-top: 60px;
+  font-size: 30px;
+  border: 1px solid #80004f;
+  margin-left: 30px;
+  margin-right: 30px;
+  border-radius: 4px;
+  padding-bottom: 55px;
+  background-color: #b9227f;
+  color: aliceblue;
+}
+
+.help-me:hover{
+    background-color: #e658af;
+    color: rgb(245, 245, 245);
+    border: 1px solid #002364;
+}
+
+.help-me:focus{
+    background-color: #e658af;
+    color: rgb(245, 245, 245);
+    border: 1px solid #002364;
+}
+
+.ingredient-title{
+  font-size: 21px;
+  font-weight: 600;
+}
+
+.ingredients {
+margin-top: -10px;
+letter-spacing: 2px;
+font-size: 15px;
+border-bottom: 2px solid #282c34;
+padding-bottom: 20px;
+font-family: 'Lora', serif;
+font-family: 'Noto Sans', sans-serif;
+font-weight: bold;
+}
+
+.spotify-playlist{
+  border-bottom: 2px solid #282c34;
+  padding-bottom: 25px;
+}
+
+.food-fact-title {
+  padding-top: 15px ;
+  font-size: 21px;
+  font-weight: 600;
+}
+
+.food-fact {
+font-size: 20px;
+padding-bottom: 5px;
+font-family: 'Lora', serif;
+font-family: 'Noto Sans', sans-serif;
+font-weight: bold;
+}
+
+.steps-title{
+  font-size: 21px;
+  font-weight: 600;
+  margin-bottom: -10px;
+}
+
+.slick-dots li{
+  
+  background-color: #282c34;
+  width: 50px;
+}
+
+.slick-dots {
+
+  height: 0px;
+}
+
+.ant-card-head-title {
+  font-size: 30px;
+  font-weight: 600;
+}
+.ant-cascader-picker{
+  width: 50%;
+}
+
+.ant-cascader-picker-label{
+  font-size: 20px;
+}
+
+footer {
+  padding-top: 100px;
+  padding-bottom: 20px;
+  font-weight: 600;
+}
+@media screen and (max-width: 800px) {
+   .intro {
+      font-size: 25px;
+    padding-right: 70px;
+    padding-left: 70px;
+  }
+  .forked-up {
+    width: 100%;
+  }
+  .carousel{
+  background-image: url("../src/assets/CarouselMedia800.png");
+}
+  .recipe {
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .spotify-playlist  {
+    width: 400px;
+  }
+  .returned-recipe {
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+                
+  .french, .italian, .american, .caribbean, .greek, .chinese, .indian, .mediterranean, .european, .japanese, .mexican, .thai, .german, .southern, .middle-eastern, .random, .single {
+    margin-left: auto;
+     margin-right: auto;
+    margin-top: 10px;
+  }
+
+  .french-food, .italian-food, .american-food, .caribbean-food, .greek-food, .chinese-food, .indian-food, .mediterranean-food, .european-food, .japanese-food, .mexican-food, .thai-food, .german-food, .southern-food, .middle-eastern-food, .random-food, .single-food {
+    width: 80%;
+  }
+
+  footer {
+  margin-top: 80px;
+  padding-left: 80px;
+  padding-right: 80px;
+  font-size: 20px;
+}
+
+}
+@media screen and (max-width: 540px) {
+
+  .forked-up {
+    margin-bottom: 15px;
+  }
+
+  .LandingButton {
+    font-size: 25px;
+  }
+
+  .carousel{
+  background-image: url("../src/assets/CarouselMedia540.png");
+      height: 500px;
+  }
+   .carousel2{
+  background-image: url("../src/assets/Carousel2Media540.png");
+      height: 500px;
+  }
+  .intro {
+    padding-right: 60px;
+    padding-left: 60px; 
+  }
+    .sub-header {
+    margin-bottom: 20px;
+  }
+
+   .ant-card-head-title {
+    font-size: 20px;
+  }
+
+  .recipe {
+    width: 350px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .spotify-playlist {
+    width: 100%;
+  }
+  .returned-recipe {
+    width: 350px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .french-food, .italian-food, .american-food, .caribbean-food, .greek-food, .chinese-food, .indian-food, .mediterranean-food, .european-food, .japanese-food, .mexican-food, .thai-food, .german-food, .southern-food, .middle-eastern-food, .random-food  {
+    width: 80%;
+  }
+  .header-title {
+    font-size: 50px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+
+
+
+  .LogoutButton {
+  margin-top: 20px ;
+  border: 1px solid #80004f;
+  border-radius: 6px;
+  padding: 10px 20px;
+  font-weight: 600;
+  font-size: 30px;
+  background-color: #b9227f;
+  color: aliceblue;
+  }
+  .intro {
+    font-size: 20px;
+    padding: 5px;;
+  }
+
+  .recipe {
+    width: 90%;
+    margin:auto;
+  }
+  .spotify-playlist {
+    width: 100%;
+  }
+  .returned-recipe {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .help-me {
+    width: 80%;
+    font-size: 26px;
+  }
+  .header-title {
+    font-size: 30px;
+  }
+  footer {
+    margin-top: 40px;
+    margin-bottom: 3rem;
+    font-size: 22px;
+    width: 100%;
+    padding: 5px;
+  }
+  .logout-div {
+    margin-top: 10px;
+    padding-right: 13px;
+  }
+  .header-title {
+    font-size: 40px;
+  }
+}
+
